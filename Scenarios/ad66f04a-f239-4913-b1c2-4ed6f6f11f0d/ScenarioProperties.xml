@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<cScenarioProperties xmlns:d="http://www.kuju.com/TnT/2003/Delta" d:version="1.0" d:id="814207456">
+<cScenarioProperties xmlns:d="http://www.kuju.com/TnT/2003/Delta" d:version="1.0" d:id="808581328">
 	<ID>
 		<cGUID>
 			<UUID>
@@ -100,7 +100,7 @@
 	<HasRollingStart d:type="bool">0</HasRollingStart>
 	<LoadedFromRollingStart d:type="bool">0</LoadedFromRollingStart>
 	<FrontEndDriverList>
-		<sDriverFrontEndDetails d:id="1062635888">
+		<sDriverFrontEndDetails d:id="132166848">
 			<ServiceName>
 				<Localisation-cUserLocalisedString>
 					<English d:type="cDeltaString">CTA Test</English>
@@ -126,7 +126,7 @@
 					<Polish d:type="cDeltaString"></Polish>
 					<Russian d:type="cDeltaString"></Russian>
 					<Other/>
-					<Key d:type="cDeltaString">ef9b55b3-b870-4d5f-a24e-09ca0da9df3e</Key>
+					<Key d:type="cDeltaString">b87b2a2b-fbfa-480b-ba98-7ca5d1540917</Key>
 				</Localisation-cUserLocalisedString>
 			</LocoName>
 			<LocoBP>
@@ -142,7 +142,7 @@
 			</LocoBP>
 			<StartLocation>
 				<Localisation-cUserLocalisedString>
-					<English d:type="cDeltaString">Chicago/Franklin - Brown/Purple - Loop</English>
+					<English d:type="cDeltaString">Merchandise Mart - Brown/Purple - North</English>
 					<French d:type="cDeltaString"></French>
 					<Italian d:type="cDeltaString"></Italian>
 					<German d:type="cDeltaString"></German>
@@ -151,28 +151,28 @@
 					<Polish d:type="cDeltaString"></Polish>
 					<Russian d:type="cDeltaString"></Russian>
 					<Other/>
-					<Key d:type="cDeltaString">353c3c85-41d9-4841-874f-e37d8147b02b</Key>
+					<Key d:type="cDeltaString">7875a3a6-80b1-4372-b63a-c1bda75425de</Key>
 				</Localisation-cUserLocalisedString>
 			</StartLocation>
 			<LocoClass d:type="cDeltaString">LOCO_CLASS_ELECTRIC</LocoClass>
 			<LocoAuthor d:type="cDeltaString">briman0094</LocoAuthor>
 			<FilePath d:type="cDeltaString">briman0094\CTA\RailVehicles\Electric\CTA5000\CTA5000</FilePath>
-			<Longitude d:type="sFloat64" d:alt_encoding="00000080B0E855C0" d:precision="string">-87.6358</Longitude>
-			<Latitude d:type="sFloat64" d:alt_encoding="000000A09AF24440" d:precision="string">41.8953</Latitude>
-			<Height d:type="sFloat32" d:alt_encoding="00000080F3081940" d:precision="string">6.25874</Height>
-			<PlayerDriver d:type="bool">0</PlayerDriver>
+			<Longitude d:type="sFloat64" d:alt_encoding="000000C093E855C0" d:precision="string">-87.634</Longitude>
+			<Latitude d:type="sFloat64" d:alt_encoding="000000E0B2F14440" d:precision="string">41.8883</Latitude>
+			<Height d:type="sFloat32" d:alt_encoding="000000E0F3081940" d:precision="string">6.25874</Height>
+			<PlayerDriver d:type="bool">1</PlayerDriver>
 		</sDriverFrontEndDetails>
 	</FrontEndDriverList>
 	<RequiredSet>
-		<iBlueprintLibrary-cBlueprintSetID d:id="1060008536">
+		<iBlueprintLibrary-cBlueprintSetID d:id="806217080">
 			<Provider d:type="cDeltaString">briman0094</Provider>
 			<Product d:type="cDeltaString">CTA</Product>
 		</iBlueprintLibrary-cBlueprintSetID>
 	</RequiredSet>
 	<Gizmo>
-		<cOwnedEntity d:id="1272264176">
+		<cOwnedEntity d:id="806439232">
 			<Component>
-				<cEditorSceneryRender d:id="1053911200">
+				<cEditorSceneryRender d:id="1025470048">
 					<DetailLevel d:type="sInt32">10</DetailLevel>
 					<Global d:type="bool">0</Global>
 					<Saved d:type="bool">1</Saved>
@@ -180,16 +180,16 @@
 					<Palette1Index d:type="sUInt8">80</Palette1Index>
 					<Palette2Index d:type="sUInt8">131</Palette2Index>
 				</cEditorSceneryRender>
-				<cPosOri d:id="1272264296">
+				<cPosOri d:id="806439352">
 					<Scale d:numElements="4" d:elementType="sFloat32" d:precision="string">1.0000000 1.0000000 1.0000000 0.0000000</Scale>
 					<RFarMatrix>
-						<cFarMatrix d:id="1272264320">
+						<cFarMatrix d:id="806439376">
 							<Height d:type="sFloat32" d:alt_encoding="000000C0B10E2640" d:precision="string">11.0287</Height>
 							<RXAxis d:numElements="4" d:elementType="sFloat32" d:precision="string">-0.8560492 0.0000003 -0.5168945 0.0000000</RXAxis>
 							<RYAxis d:numElements="4" d:elementType="sFloat32" d:precision="string">0.1284982 0.9686073 -0.2128104 0.0000000</RYAxis>
 							<RZAxis d:numElements="4" d:elementType="sFloat32" d:precision="string">0.5006676 -0.2485962 -0.8291754 0.0000000</RZAxis>
 							<RFarPosition>
-								<cFarVector2 d:id="1272264372">
+								<cFarVector2 d:id="806439428">
 									<X>
 										<cFarCoordinate>
 											<RouteCoordinate>
@@ -223,7 +223,7 @@
 						</cFarMatrix>
 					</RFarMatrix>
 				</cPosOri>
-				<cScriptComponent d:id="1267851744">
+				<cScriptComponent d:id="802214496">
 					<DebugDisplay d:type="bool">1</DebugDisplay>
 					<StateName d:type="cDeltaString"></StateName>
 				</cScriptComponent>
@@ -262,23 +262,23 @@
 			</EntityID>
 		</cOwnedEntity>
 	</Gizmo>
-	<SimulationTime d:type="sFloat32" d:alt_encoding="0000000000000000" d:precision="string">0</SimulationTime>
+	<SimulationTime d:type="sFloat32" d:alt_encoding="00000000F7708340" d:precision="string">622.121</SimulationTime>
 	<AuthoredLanguage d:type="cDeltaString">en</AuthoredLanguage>
 	<Version d:type="sFloat32" d:alt_encoding="000000000000F03F" d:precision="string">1</Version>
 	<Author d:type="cDeltaString"></Author>
 	<DispatcherVersion d:type="cDeltaString">V1</DispatcherVersion>
 	<RBlueprintSetPreLoad>
-		<iBlueprintLibrary-cBlueprintSetID d:id="811735000">
+		<iBlueprintLibrary-cBlueprintSetID d:id="30585280">
 			<Provider d:type="cDeltaString">briman0094</Provider>
 			<Product d:type="cDeltaString">CTA</Product>
 		</iBlueprintLibrary-cBlueprintSetID>
-		<iBlueprintLibrary-cBlueprintSetID d:id="811735008">
+		<iBlueprintLibrary-cBlueprintSetID d:id="30585288">
 			<Provider d:type="cDeltaString">RSC</Provider>
 			<Product d:type="cDeltaString">BrightonMainLine</Product>
 		</iBlueprintLibrary-cBlueprintSetID>
 	</RBlueprintSetPreLoad>
 	<NamedEntity>
-		<cScenarioProperties-cGuidToNameMapping d:id="1272503880">
+		<cScenarioProperties-cGuidToNameMapping d:id="1025388936">
 			<Guid>
 				<cGUID>
 					<UUID>
@@ -290,7 +290,7 @@
 			</Guid>
 			<Name d:type="cDeltaString">Armitage_BrnPur_N</Name>
 		</cScenarioProperties-cGuidToNameMapping>
-		<cScenarioProperties-cGuidToNameMapping d:id="1272502800">
+		<cScenarioProperties-cGuidToNameMapping d:id="1025388496">
 			<Guid>
 				<cGUID>
 					<UUID>
@@ -302,7 +302,7 @@
 			</Guid>
 			<Name d:type="cDeltaString">Armitage_BrnPur_S</Name>
 		</cScenarioProperties-cGuidToNameMapping>
-		<cScenarioProperties-cGuidToNameMapping d:id="1272501320">
+		<cScenarioProperties-cGuidToNameMapping d:id="1025388416">
 			<Guid>
 				<cGUID>
 					<UUID>
@@ -314,7 +314,7 @@
 			</Guid>
 			<Name d:type="cDeltaString">ChicagoFranklin_BrnPur_N</Name>
 		</cScenarioProperties-cGuidToNameMapping>
-		<cScenarioProperties-cGuidToNameMapping d:id="1272502720">
+		<cScenarioProperties-cGuidToNameMapping d:id="1025388976">
 			<Guid>
 				<cGUID>
 					<UUID>
@@ -326,7 +326,7 @@
 			</Guid>
 			<Name d:type="cDeltaString">ChicagoFranklin_BrnPur_S</Name>
 		</cScenarioProperties-cGuidToNameMapping>
-		<cScenarioProperties-cGuidToNameMapping d:id="1272504840">
+		<cScenarioProperties-cGuidToNameMapping d:id="1025389176">
 			<Guid>
 				<cGUID>
 					<UUID>
@@ -338,7 +338,7 @@
 			</Guid>
 			<Name d:type="cDeltaString">Fullerton_BrnPur_N</Name>
 		</cScenarioProperties-cGuidToNameMapping>
-		<cScenarioProperties-cGuidToNameMapping d:id="1272504760">
+		<cScenarioProperties-cGuidToNameMapping d:id="1025389016">
 			<Guid>
 				<cGUID>
 					<UUID>
@@ -351,7 +351,7 @@
 			<Name d:type="cDeltaString">Fullerton_BrnPur_S
 </Name>
 		</cScenarioProperties-cGuidToNameMapping>
-		<cScenarioProperties-cGuidToNameMapping d:id="1272503040">
+		<cScenarioProperties-cGuidToNameMapping d:id="1025388776">
 			<Guid>
 				<cGUID>
 					<UUID>
@@ -365,7 +365,7 @@
 S
 </Name>
 		</cScenarioProperties-cGuidToNameMapping>
-		<cScenarioProperties-cGuidToNameMapping d:id="1272502000">
+		<cScenarioProperties-cGuidToNameMapping d:id="1025388656">
 			<Guid>
 				<cGUID>
 					<UUID>
@@ -377,7 +377,7 @@ S
 			</Guid>
 			<Name d:type="cDeltaString">Fullerton_Red_N</Name>
 		</cScenarioProperties-cGuidToNameMapping>
-		<cScenarioProperties-cGuidToNameMapping d:id="1272504600">
+		<cScenarioProperties-cGuidToNameMapping d:id="1025388856">
 			<Guid>
 				<cGUID>
 					<UUID>
@@ -389,7 +389,7 @@ S
 			</Guid>
 			<Name d:type="cDeltaString">MerchandiseMart_BrnPur_N</Name>
 		</cScenarioProperties-cGuidToNameMapping>
-		<cScenarioProperties-cGuidToNameMapping d:id="1272502960">
+		<cScenarioProperties-cGuidToNameMapping d:id="1025389136">
 			<Guid>
 				<cGUID>
 					<UUID>
@@ -401,7 +401,7 @@ S
 			</Guid>
 			<Name d:type="cDeltaString">MerchandiseMart_BrnPur_S</Name>
 		</cScenarioProperties-cGuidToNameMapping>
-		<cScenarioProperties-cGuidToNameMapping d:id="1272503920">
+		<cScenarioProperties-cGuidToNameMapping d:id="1025388576">
 			<Guid>
 				<cGUID>
 					<UUID>
@@ -413,7 +413,7 @@ S
 			</Guid>
 			<Name d:type="cDeltaString">Sedgwick_BrnPur_N</Name>
 		</cScenarioProperties-cGuidToNameMapping>
-		<cScenarioProperties-cGuidToNameMapping d:id="1272503080">
+		<cScenarioProperties-cGuidToNameMapping d:id="1025388736">
 			<Guid>
 				<cGUID>
 					<UUID>
