@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<cScenarioProperties xmlns:d="http://www.kuju.com/TnT/2003/Delta" d:version="1.0" d:id="1268388184">
+<cScenarioProperties xmlns:d="http://www.kuju.com/TnT/2003/Delta" d:version="1.0" d:id="754639472">
 	<ID>
 		<cGUID>
 			<UUID>
@@ -100,7 +100,131 @@
 	<HasRollingStart d:type="bool">0</HasRollingStart>
 	<LoadedFromRollingStart d:type="bool">0</LoadedFromRollingStart>
 	<FrontEndDriverList>
-		<sDriverFrontEndDetails d:id="1124631776">
+		<sDriverFrontEndDetails d:id="1169006064">
+			<ServiceName>
+				<Localisation-cUserLocalisedString>
+					<English d:type="cDeltaString">AI Purple Line Run 512</English>
+					<French d:type="cDeltaString"></French>
+					<Italian d:type="cDeltaString"></Italian>
+					<German d:type="cDeltaString"></German>
+					<Spanish d:type="cDeltaString"></Spanish>
+					<Dutch d:type="cDeltaString"></Dutch>
+					<Polish d:type="cDeltaString"></Polish>
+					<Russian d:type="cDeltaString"></Russian>
+					<Other/>
+					<Key d:type="cDeltaString">3934fe6f-1e22-491d-b388-8fbc7069f206</Key>
+				</Localisation-cUserLocalisedString>
+			</ServiceName>
+			<LocoName>
+				<Localisation-cUserLocalisedString>
+					<English d:type="cDeltaString">[CTA] Bombardier 5000-series</English>
+					<French d:type="cDeltaString"></French>
+					<Italian d:type="cDeltaString"></Italian>
+					<German d:type="cDeltaString"></German>
+					<Spanish d:type="cDeltaString"></Spanish>
+					<Dutch d:type="cDeltaString"></Dutch>
+					<Polish d:type="cDeltaString"></Polish>
+					<Russian d:type="cDeltaString"></Russian>
+					<Other/>
+					<Key d:type="cDeltaString">06d8c63a-6811-4b7d-a8b8-3f092aa3fabd</Key>
+				</Localisation-cUserLocalisedString>
+			</LocoName>
+			<LocoBP>
+				<iBlueprintLibrary-cAbsoluteBlueprintID>
+					<BlueprintSetID>
+						<iBlueprintLibrary-cBlueprintSetID>
+							<Provider d:type="cDeltaString">briman0094</Provider>
+							<Product d:type="cDeltaString">CTA</Product>
+						</iBlueprintLibrary-cBlueprintSetID>
+					</BlueprintSetID>
+					<BlueprintID d:type="cDeltaString">RailVehicles\Electric\CTA5000\CTA5000\CTA5000.xml</BlueprintID>
+				</iBlueprintLibrary-cAbsoluteBlueprintID>
+			</LocoBP>
+			<StartLocation>
+				<Localisation-cUserLocalisedString>
+					<English d:type="cDeltaString"></English>
+					<French d:type="cDeltaString"></French>
+					<Italian d:type="cDeltaString"></Italian>
+					<German d:type="cDeltaString"></German>
+					<Spanish d:type="cDeltaString"></Spanish>
+					<Dutch d:type="cDeltaString"></Dutch>
+					<Polish d:type="cDeltaString"></Polish>
+					<Russian d:type="cDeltaString"></Russian>
+					<Other/>
+					<Key d:type="cDeltaString">2fae1329-9d49-4beb-961a-fb426e32d364</Key>
+				</Localisation-cUserLocalisedString>
+			</StartLocation>
+			<LocoClass d:type="cDeltaString">LOCO_CLASS_ELECTRIC</LocoClass>
+			<LocoAuthor d:type="cDeltaString">briman0094</LocoAuthor>
+			<FilePath d:type="cDeltaString">briman0094\CTA\RailVehicles\Electric\CTA5000\CTA5000</FilePath>
+			<Longitude d:type="sFloat64" d:alt_encoding="000000C0D3E955C0" d:precision="string">-87.6535</Longitude>
+			<Latitude d:type="sFloat64" d:alt_encoding="0000006016F94440" d:precision="string">41.946</Latitude>
+			<Height d:type="sFloat32" d:alt_encoding="00000000F3081940" d:precision="string">6.25874</Height>
+			<PlayerDriver d:type="bool">0</PlayerDriver>
+		</sDriverFrontEndDetails>
+		<sDriverFrontEndDetails d:id="1169005768">
+			<ServiceName>
+				<Localisation-cUserLocalisedString>
+					<English d:type="cDeltaString">AI Brown Line Run 420</English>
+					<French d:type="cDeltaString"></French>
+					<Italian d:type="cDeltaString"></Italian>
+					<German d:type="cDeltaString"></German>
+					<Spanish d:type="cDeltaString"></Spanish>
+					<Dutch d:type="cDeltaString"></Dutch>
+					<Polish d:type="cDeltaString"></Polish>
+					<Russian d:type="cDeltaString"></Russian>
+					<Other/>
+					<Key d:type="cDeltaString">14cfc9a2-8ee8-4885-9c2e-0455f74d39cf</Key>
+				</Localisation-cUserLocalisedString>
+			</ServiceName>
+			<LocoName>
+				<Localisation-cUserLocalisedString>
+					<English d:type="cDeltaString">[CTA] Bombardier 5000-series</English>
+					<French d:type="cDeltaString"></French>
+					<Italian d:type="cDeltaString"></Italian>
+					<German d:type="cDeltaString"></German>
+					<Spanish d:type="cDeltaString"></Spanish>
+					<Dutch d:type="cDeltaString"></Dutch>
+					<Polish d:type="cDeltaString"></Polish>
+					<Russian d:type="cDeltaString"></Russian>
+					<Other/>
+					<Key d:type="cDeltaString">15975ff7-84fc-4dbf-95fc-85d6e59f8f29</Key>
+				</Localisation-cUserLocalisedString>
+			</LocoName>
+			<LocoBP>
+				<iBlueprintLibrary-cAbsoluteBlueprintID>
+					<BlueprintSetID>
+						<iBlueprintLibrary-cBlueprintSetID>
+							<Provider d:type="cDeltaString">briman0094</Provider>
+							<Product d:type="cDeltaString">CTA</Product>
+						</iBlueprintLibrary-cBlueprintSetID>
+					</BlueprintSetID>
+					<BlueprintID d:type="cDeltaString">RailVehicles\Electric\CTA5000\CTA5000\CTA5000.xml</BlueprintID>
+				</iBlueprintLibrary-cAbsoluteBlueprintID>
+			</LocoBP>
+			<StartLocation>
+				<Localisation-cUserLocalisedString>
+					<English d:type="cDeltaString">Kedzie - Brown - Kimball</English>
+					<French d:type="cDeltaString"></French>
+					<Italian d:type="cDeltaString"></Italian>
+					<German d:type="cDeltaString"></German>
+					<Spanish d:type="cDeltaString"></Spanish>
+					<Dutch d:type="cDeltaString"></Dutch>
+					<Polish d:type="cDeltaString"></Polish>
+					<Russian d:type="cDeltaString"></Russian>
+					<Other/>
+					<Key d:type="cDeltaString">cf1158f9-6dbe-4821-9d45-f43f32d40656</Key>
+				</Localisation-cUserLocalisedString>
+			</StartLocation>
+			<LocoClass d:type="cDeltaString">LOCO_CLASS_ELECTRIC</LocoClass>
+			<LocoAuthor d:type="cDeltaString">briman0094</LocoAuthor>
+			<FilePath d:type="cDeltaString">briman0094\CTA\RailVehicles\Electric\CTA5000\CTA5000</FilePath>
+			<Longitude d:type="sFloat64" d:alt_encoding="000000C07CED55C0" d:precision="string">-87.7107</Longitude>
+			<Latitude d:type="sFloat64" d:alt_encoding="00000040ABFB4440" d:precision="string">41.9662</Latitude>
+			<Height d:type="sFloat32" d:alt_encoding="000000E0A947E03F" d:precision="string">0.508748</Height>
+			<PlayerDriver d:type="bool">0</PlayerDriver>
+		</sDriverFrontEndDetails>
+		<sDriverFrontEndDetails d:id="1169005472">
 			<ServiceName>
 				<Localisation-cUserLocalisedString>
 					<English d:type="cDeltaString">AI Pink Line Run 314</English>
@@ -126,7 +250,7 @@
 					<Polish d:type="cDeltaString"></Polish>
 					<Russian d:type="cDeltaString"></Russian>
 					<Other/>
-					<Key d:type="cDeltaString">d053ba55-3213-4b22-ac5d-dbe3293b69ac</Key>
+					<Key d:type="cDeltaString">2c1abd96-0f58-4e38-8e01-a746b2d016b9</Key>
 				</Localisation-cUserLocalisedString>
 			</LocoName>
 			<LocoBP>
@@ -151,7 +275,7 @@
 					<Polish d:type="cDeltaString"></Polish>
 					<Russian d:type="cDeltaString"></Russian>
 					<Other/>
-					<Key d:type="cDeltaString">13defb2f-5975-4379-a02e-993d2b8a5605</Key>
+					<Key d:type="cDeltaString">19cc513e-eece-49d8-a7fc-1168aece4fde</Key>
 				</Localisation-cUserLocalisedString>
 			</StartLocation>
 			<LocoClass d:type="cDeltaString">LOCO_CLASS_ELECTRIC</LocoClass>
@@ -159,10 +283,10 @@
 			<FilePath d:type="cDeltaString">briman0094\CTA\RailVehicles\Electric\CTA5000\CTA5000</FilePath>
 			<Longitude d:type="sFloat64" d:alt_encoding="000000C0B2E855C0" d:precision="string">-87.6359</Longitude>
 			<Latitude d:type="sFloat64" d:alt_encoding="000000C05DF14440" d:precision="string">41.8857</Latitude>
-			<Height d:type="sFloat32" d:alt_encoding="0000000075812040" d:precision="string">8.25285</Height>
+			<Height d:type="sFloat32" d:alt_encoding="0000008075812040" d:precision="string">8.25285</Height>
 			<PlayerDriver d:type="bool">0</PlayerDriver>
 		</sDriverFrontEndDetails>
-		<sDriverFrontEndDetails d:id="1124631480">
+		<sDriverFrontEndDetails d:id="1169005176">
 			<ServiceName>
 				<Localisation-cUserLocalisedString>
 					<English d:type="cDeltaString">AI Brown Line Run 411</English>
@@ -188,7 +312,7 @@
 					<Polish d:type="cDeltaString"></Polish>
 					<Russian d:type="cDeltaString"></Russian>
 					<Other/>
-					<Key d:type="cDeltaString">c9eaa0e2-36b3-4aab-86bc-756d1eb77e44</Key>
+					<Key d:type="cDeltaString">253a70a5-3c6d-4c8c-ad22-db8c33b4f475</Key>
 				</Localisation-cUserLocalisedString>
 			</LocoName>
 			<LocoBP>
@@ -213,7 +337,7 @@
 					<Polish d:type="cDeltaString"></Polish>
 					<Russian d:type="cDeltaString"></Russian>
 					<Other/>
-					<Key d:type="cDeltaString">820d713c-9aa4-4b43-bcd4-a058325f403f</Key>
+					<Key d:type="cDeltaString">2df1823e-d8ff-45be-a43a-7fbb2ebe54f0</Key>
 				</Localisation-cUserLocalisedString>
 			</StartLocation>
 			<LocoClass d:type="cDeltaString">LOCO_CLASS_ELECTRIC</LocoClass>
@@ -221,10 +345,10 @@
 			<FilePath d:type="cDeltaString">briman0094\CTA\RailVehicles\Electric\CTA5000\CTA5000</FilePath>
 			<Longitude d:type="sFloat64" d:alt_encoding="0000008096ED55C0" d:precision="string">-87.7123</Longitude>
 			<Latitude d:type="sFloat64" d:alt_encoding="00000060CAFB4440" d:precision="string">41.9671</Latitude>
-			<Height d:type="sFloat32" d:alt_encoding="000000A0A747E03F" d:precision="string">0.508747</Height>
+			<Height d:type="sFloat32" d:alt_encoding="000000C0A747E03F" d:precision="string">0.508747</Height>
 			<PlayerDriver d:type="bool">0</PlayerDriver>
 		</sDriverFrontEndDetails>
-		<sDriverFrontEndDetails d:id="1124631184">
+		<sDriverFrontEndDetails d:id="1169004880">
 			<ServiceName>
 				<Localisation-cUserLocalisedString>
 					<English d:type="cDeltaString">Brown Line Run 407</English>
@@ -250,7 +374,7 @@
 					<Polish d:type="cDeltaString"></Polish>
 					<Russian d:type="cDeltaString"></Russian>
 					<Other/>
-					<Key d:type="cDeltaString">cd6688bb-7a58-42c8-a2a7-51fd4ea137dd</Key>
+					<Key d:type="cDeltaString">3a58bf30-4ca7-4ed7-898e-68cb86f39ba7</Key>
 				</Localisation-cUserLocalisedString>
 			</LocoName>
 			<LocoBP>
@@ -283,20 +407,20 @@
 			<FilePath d:type="cDeltaString">briman0094\CTA\RailVehicles\Electric\CTA5000\CTA5000</FilePath>
 			<Longitude d:type="sFloat64" d:alt_encoding="00000000A4ED55C0" d:precision="string">-87.7131</Longitude>
 			<Latitude d:type="sFloat64" d:alt_encoding="00000000E8FB4440" d:precision="string">41.968</Latitude>
-			<Height d:type="sFloat32" d:alt_encoding="00000020A447E03F" d:precision="string">0.508745</Height>
+			<Height d:type="sFloat32" d:alt_encoding="000000A0A347E03F" d:precision="string">0.508745</Height>
 			<PlayerDriver d:type="bool">1</PlayerDriver>
 		</sDriverFrontEndDetails>
 	</FrontEndDriverList>
 	<RequiredSet>
-		<iBlueprintLibrary-cBlueprintSetID d:id="1317718928">
+		<iBlueprintLibrary-cBlueprintSetID d:id="746791360">
 			<Provider d:type="cDeltaString">briman0094</Provider>
 			<Product d:type="cDeltaString">CTA</Product>
 		</iBlueprintLibrary-cBlueprintSetID>
 	</RequiredSet>
 	<Gizmo>
-		<cOwnedEntity d:id="1282503904">
+		<cOwnedEntity d:id="754402496">
 			<Component>
-				<cEditorSceneryRender d:id="1248375160">
+				<cEditorSceneryRender d:id="754640288">
 					<DetailLevel d:type="sInt32">10</DetailLevel>
 					<Global d:type="bool">0</Global>
 					<Saved d:type="bool">1</Saved>
@@ -304,16 +428,16 @@
 					<Palette1Index d:type="sUInt8">197</Palette1Index>
 					<Palette2Index d:type="sUInt8">3</Palette2Index>
 				</cEditorSceneryRender>
-				<cPosOri d:id="1282385704">
+				<cPosOri d:id="754402616">
 					<Scale d:numElements="4" d:elementType="sFloat32" d:precision="string">1.0000000 1.0000000 1.0000000 0.0000000</Scale>
 					<RFarMatrix>
-						<cFarMatrix d:id="1282385728">
+						<cFarMatrix d:id="754402640">
 							<Height d:type="sFloat32" d:alt_encoding="000000401CAB0A40" d:precision="string">3.33355</Height>
 							<RXAxis d:numElements="4" d:elementType="sFloat32" d:precision="string">0.9871883 -0.0088039 0.1593167 0.0000000</RXAxis>
 							<RYAxis d:numElements="4" d:elementType="sFloat32" d:precision="string">-0.0050627 0.9962457 0.0864236 0.0000000</RYAxis>
 							<RZAxis d:numElements="4" d:elementType="sFloat32" d:precision="string">-0.1594795 -0.0861229 0.9834375 0.0000000</RZAxis>
 							<RFarPosition>
-								<cFarVector2 d:id="1282385780">
+								<cFarVector2 d:id="754402692">
 									<X>
 										<cFarCoordinate>
 											<RouteCoordinate>
@@ -347,7 +471,7 @@
 						</cFarMatrix>
 					</RFarMatrix>
 				</cPosOri>
-				<cScriptComponent d:id="1121923560">
+				<cScriptComponent d:id="751948064">
 					<DebugDisplay d:type="bool">1</DebugDisplay>
 					<StateName d:type="cDeltaString"></StateName>
 				</cScriptComponent>
@@ -393,7 +517,7 @@
 	<DispatcherVersion d:type="cDeltaString">V1</DispatcherVersion>
 	<RBlueprintSetPreLoad/>
 	<NamedEntity>
-		<cScenarioProperties-cGuidToNameMapping d:id="1133444856">
+		<cScenarioProperties-cGuidToNameMapping d:id="754142648">
 			<Guid>
 				<cGUID>
 					<UUID>
@@ -405,7 +529,79 @@
 			</Guid>
 			<Name d:type="cDeltaString">IrvingPark_Brn_SBDisposal</Name>
 		</cScenarioProperties-cGuidToNameMapping>
-		<cScenarioProperties-cGuidToNameMapping d:id="1133430096">
+		<cScenarioProperties-cGuidToNameMapping d:id="754142248">
+			<Guid>
+				<cGUID>
+					<UUID>
+						<e d:type="sUInt64">5262432116804197703</e>
+						<e d:type="sUInt64">15240919685106730379</e>
+					</UUID>
+					<DevString d:type="cDeltaString">f0b89d47-ea20-4907-8b85-0b29b49f82d3</DevString>
+				</cGUID>
+			</Guid>
+			<Name d:type="cDeltaString">Kimball_Siding1</Name>
+		</cScenarioProperties-cGuidToNameMapping>
+		<cScenarioProperties-cGuidToNameMapping d:id="754142688">
+			<Guid>
+				<cGUID>
+					<UUID>
+						<e d:type="sUInt64">5725086581907499339</e>
+						<e d:type="sUInt64">11321474629657907366</e>
+					</UUID>
+					<DevString d:type="cDeltaString">d6f3a94b-97e9-4f73-a650-5b2231f51d9d</DevString>
+				</cGUID>
+			</Guid>
+			<Name d:type="cDeltaString">Kimball_Siding2</Name>
+		</cScenarioProperties-cGuidToNameMapping>
+		<cScenarioProperties-cGuidToNameMapping d:id="754142728">
+			<Guid>
+				<cGUID>
+					<UUID>
+						<e d:type="sUInt64">4643664170188129264</e>
+						<e d:type="sUInt64">7244142591774313622</e>
+					</UUID>
+					<DevString d:type="cDeltaString">a845c3f0-9bf5-4071-964c-fc5c4e5d8864</DevString>
+				</cGUID>
+			</Guid>
+			<Name d:type="cDeltaString">Kimball_Siding3</Name>
+		</cScenarioProperties-cGuidToNameMapping>
+		<cScenarioProperties-cGuidToNameMapping d:id="754142888">
+			<Guid>
+				<cGUID>
+					<UUID>
+						<e d:type="sUInt64">4705197902849671984</e>
+						<e d:type="sUInt64">31642810749721523</e>
+					</UUID>
+					<DevString d:type="cDeltaString">3d448330-3890-414c-b39b-6efef76a7000</DevString>
+				</cGUID>
+			</Guid>
+			<Name d:type="cDeltaString">Kimball_Yard1</Name>
+		</cScenarioProperties-cGuidToNameMapping>
+		<cScenarioProperties-cGuidToNameMapping d:id="754142768">
+			<Guid>
+				<cGUID>
+					<UUID>
+						<e d:type="sUInt64">5401516822959367057</e>
+						<e d:type="sUInt64">17412629790523189910</e>
+					</UUID>
+					<DevString d:type="cDeltaString">98ca2391-0aee-4af6-96ea-84d58916a6f1</DevString>
+				</cGUID>
+			</Guid>
+			<Name d:type="cDeltaString">Kimball_Yard2</Name>
+		</cScenarioProperties-cGuidToNameMapping>
+		<cScenarioProperties-cGuidToNameMapping d:id="754142808">
+			<Guid>
+				<cGUID>
+					<UUID>
+						<e d:type="sUInt64">5133945716954311173</e>
+						<e d:type="sUInt64">3245500749799548575</e>
+					</UUID>
+					<DevString d:type="cDeltaString">c3332a05-706d-473f-9fe6-108ebc550a2d</DevString>
+				</cGUID>
+			</Guid>
+			<Name d:type="cDeltaString">Kimball_YardPortal1</Name>
+		</cScenarioProperties-cGuidToNameMapping>
+		<cScenarioProperties-cGuidToNameMapping d:id="754142848">
 			<Guid>
 				<cGUID>
 					<UUID>
@@ -415,9 +611,21 @@
 					<DevString d:type="cDeltaString">74a1493e-def7-442c-aa44-438dea9151e8</DevString>
 				</cGUID>
 			</Guid>
-			<Name d:type="cDeltaString">Kimball_Yard_Portal1</Name>
+			<Name d:type="cDeltaString">Kimball_YardPortal13</Name>
 		</cScenarioProperties-cGuidToNameMapping>
-		<cScenarioProperties-cGuidToNameMapping d:id="1133419976">
+		<cScenarioProperties-cGuidToNameMapping d:id="1254414840">
+			<Guid>
+				<cGUID>
+					<UUID>
+						<e d:type="sUInt64">5438020462953642347</e>
+						<e d:type="sUInt64">14403002497537114500</e>
+					</UUID>
+					<DevString d:type="cDeltaString">97a8396b-bacc-4b77-8481-c30c76bee1c7</DevString>
+				</cGUID>
+			</Guid>
+			<Name d:type="cDeltaString">NorthMainLineExit</Name>
+		</cScenarioProperties-cGuidToNameMapping>
+		<cScenarioProperties-cGuidToNameMapping d:id="754142968">
 			<Guid>
 				<cGUID>
 					<UUID>
@@ -429,7 +637,7 @@
 			</Guid>
 			<Name d:type="cDeltaString">WestLoopIn</Name>
 		</cScenarioProperties-cGuidToNameMapping>
-		<cScenarioProperties-cGuidToNameMapping d:id="1133467856">
+		<cScenarioProperties-cGuidToNameMapping d:id="754142928">
 			<Guid>
 				<cGUID>
 					<UUID>
@@ -448,7 +656,7 @@
 	<CareerRules>
 		<d:nil/>
 	</CareerRules>
-	<MD5 d:type="cDeltaString">4005FCDAC0C34249EFB55D3268AEB2A8</MD5>
+	<MD5 d:type="cDeltaString">EBA51263EBBD3FC53C1E622DAF8C685A</MD5>
 	<MessageEvent/>
 	<SimpleControlsOnly d:type="bool">0</SimpleControlsOnly>
 	<ExpertControlsOnly d:type="bool">0</ExpertControlsOnly>
