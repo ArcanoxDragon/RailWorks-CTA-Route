@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<cRouteProperties xmlns:d="http://www.kuju.com/TnT/2003/Delta" d:version="1.0" d:id="711898544">
+<cRouteProperties xmlns:d="http://www.kuju.com/TnT/2003/Delta" d:version="1.0" d:id="790629576">
 	<ID>
 		<cGUID>
 			<UUID>
@@ -119,9 +119,9 @@
 	<LockCounter d:type="sUInt32">1</LockCounter>
 	<Locked d:type="bool">0</Locked>
 	<MapProjection>
-		<cMapProjectionOwner d:id="711862432">
+		<cMapProjectionOwner d:id="790482904">
 			<MapProjection>
-				<cUTMMapProjection d:id="711868752">
+				<cUTMMapProjection d:id="792747112">
 					<Origin>
 						<sGeoPosition>
 							<Lat d:type="sFloat64" d:alt_encoding="F5DBD78173F64440" d:precision="string">41.9254</Lat>
@@ -141,13 +141,17 @@
 		</cMapProjectionOwner>
 	</MapProjection>
 	<RBlueprintSetPreLoad>
-		<iBlueprintLibrary-cBlueprintSetID d:id="708631776">
+		<iBlueprintLibrary-cBlueprintSetID d:id="1172870928">
 			<Provider d:type="cDeltaString">briman0094</Provider>
 			<Product d:type="cDeltaString">CTA</Product>
 		</iBlueprintLibrary-cBlueprintSetID>
-		<iBlueprintLibrary-cBlueprintSetID d:id="708631784">
+		<iBlueprintLibrary-cBlueprintSetID d:id="1172870936">
 			<Provider d:type="cDeltaString">RSC</Provider>
 			<Product d:type="cDeltaString">NewYorkNewHaven</Product>
+		</iBlueprintLibrary-cBlueprintSetID>
+		<iBlueprintLibrary-cBlueprintSetID d:id="1172870944">
+			<Provider d:type="cDeltaString">Barnez</Provider>
+			<Product d:type="cDeltaString">BNSFChicago</Product>
 		</iBlueprintLibrary-cBlueprintSetID>
 	</RBlueprintSetPreLoad>
 	<AuthoredLanguage d:type="cDeltaString">en</AuthoredLanguage>
