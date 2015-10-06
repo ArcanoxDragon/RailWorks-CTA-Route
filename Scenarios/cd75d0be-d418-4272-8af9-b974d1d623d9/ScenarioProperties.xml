@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<cScenarioProperties xmlns:d="http://www.kuju.com/TnT/2003/Delta" d:version="1.0" d:id="914071920">
+<cScenarioProperties xmlns:d="http://www.kuju.com/TnT/2003/Delta" d:version="1.0" d:id="988500568">
 	<ID>
 		<cGUID>
 			<UUID>
@@ -100,7 +100,7 @@
 	<HasRollingStart d:type="bool">0</HasRollingStart>
 	<LoadedFromRollingStart d:type="bool">0</LoadedFromRollingStart>
 	<FrontEndDriverList>
-		<sDriverFrontEndDetails d:id="913475760">
+		<sDriverFrontEndDetails d:id="896153904">
 			<ServiceName>
 				<Localisation-cUserLocalisedString>
 					<English d:type="cDeltaString">Orange Line Run 700</English>
@@ -126,7 +126,7 @@
 					<Polish d:type="cDeltaString"></Polish>
 					<Russian d:type="cDeltaString"></Russian>
 					<Other/>
-					<Key d:type="cDeltaString">e08700ef-14a4-4db4-9381-6cb3fc36359f</Key>
+					<Key d:type="cDeltaString">8bf81009-72bf-40b2-9692-e7e032505a47</Key>
 				</Localisation-cUserLocalisedString>
 			</LocoName>
 			<LocoBP>
@@ -157,22 +157,22 @@
 			<LocoClass d:type="cDeltaString">LOCO_CLASS_ELECTRIC</LocoClass>
 			<LocoAuthor d:type="cDeltaString">briman0094</LocoAuthor>
 			<FilePath d:type="cDeltaString">briman0094\CTA\RailVehicles\Electric\CTA5000\CTA5000</FilePath>
-			<Longitude d:type="sFloat64" d:alt_encoding="8048BF7D1DE855C0" d:precision="string">-87.6268</Longitude>
-			<Latitude d:type="sFloat64" d:alt_encoding="E5D022DBF9EE4440" d:precision="string">41.867</Latitude>
+			<Longitude d:type="sFloat64" d:alt_encoding="000000201DE855C0" d:precision="string">-87.6268</Longitude>
+			<Latitude d:type="sFloat64" d:alt_encoding="00000040F8EE4440" d:precision="string">41.867</Latitude>
 			<Height d:type="sFloat32" d:alt_encoding="000000205C7F2040" d:precision="string">8.24875</Height>
 			<PlayerDriver d:type="bool">0</PlayerDriver>
 		</sDriverFrontEndDetails>
 	</FrontEndDriverList>
 	<RequiredSet>
-		<iBlueprintLibrary-cBlueprintSetID d:id="655753376">
+		<iBlueprintLibrary-cBlueprintSetID d:id="1202427784">
 			<Provider d:type="cDeltaString">briman0094</Provider>
 			<Product d:type="cDeltaString">CTA</Product>
 		</iBlueprintLibrary-cBlueprintSetID>
 	</RequiredSet>
 	<Gizmo>
-		<cOwnedEntity d:id="655318984">
+		<cOwnedEntity d:id="1132937720">
 			<Component>
-				<cEditorSceneryRender d:id="913488472">
+				<cEditorSceneryRender d:id="1133226400">
 					<DetailLevel d:type="sInt32">10</DetailLevel>
 					<Global d:type="bool">0</Global>
 					<Saved d:type="bool">1</Saved>
@@ -180,16 +180,16 @@
 					<Palette1Index d:type="sUInt8">3</Palette1Index>
 					<Palette2Index d:type="sUInt8">149</Palette2Index>
 				</cEditorSceneryRender>
-				<cPosOri d:id="655376424">
+				<cPosOri d:id="1132937480">
 					<Scale d:numElements="4" d:elementType="sFloat32" d:precision="string">1.0000000 1.0000000 1.0000000 0.0000000</Scale>
 					<RFarMatrix>
-						<cFarMatrix d:id="655376448">
-							<Height d:type="sFloat32" d:alt_encoding="00000060FC1B2740" d:precision="string">11.5547</Height>
+						<cFarMatrix d:id="1132937504">
+							<Height d:type="sFloat32" d:alt_encoding="000000A0011C2740" d:precision="string">11.5547</Height>
 							<RXAxis d:numElements="4" d:elementType="sFloat32" d:precision="string">0.9510551 -0.0000001 -0.3090215 0.0000000</RXAxis>
 							<RYAxis d:numElements="4" d:elementType="sFloat32" d:precision="string">0.0312034 0.9948890 0.0960322 0.0000000</RYAxis>
 							<RZAxis d:numElements="4" d:elementType="sFloat32" d:precision="string">0.3074421 -0.1009744 0.9461943 0.0000000</RZAxis>
 							<RFarPosition>
-								<cFarVector2 d:id="655376500">
+								<cFarVector2 d:id="1132937556">
 									<X>
 										<cFarCoordinate>
 											<RouteCoordinate>
@@ -199,7 +199,7 @@
 											</RouteCoordinate>
 											<TileCoordinate>
 												<cTileCoordinate>
-													<Distance d:type="sFloat32" d:alt_encoding="000000C08CCF5040" d:precision="string">67.243</Distance>
+													<Distance d:type="sFloat32" d:alt_encoding="000000408DCF5040" d:precision="string">67.243</Distance>
 												</cTileCoordinate>
 											</TileCoordinate>
 										</cFarCoordinate>
@@ -213,7 +213,7 @@
 											</RouteCoordinate>
 											<TileCoordinate>
 												<cTileCoordinate>
-													<Distance d:type="sFloat32" d:alt_encoding="000000C06E4E8440" d:precision="string">649.804</Distance>
+													<Distance d:type="sFloat32" d:alt_encoding="000000A06E4E8440" d:precision="string">649.804</Distance>
 												</cTileCoordinate>
 											</TileCoordinate>
 										</cFarCoordinate>
@@ -223,7 +223,7 @@
 						</cFarMatrix>
 					</RFarMatrix>
 				</cPosOri>
-				<cScriptComponent d:id="655910240">
+				<cScriptComponent d:id="639550280">
 					<DebugDisplay d:type="bool">1</DebugDisplay>
 					<StateName d:type="cDeltaString"></StateName>
 				</cScriptComponent>
@@ -269,7 +269,31 @@
 	<DispatcherVersion d:type="cDeltaString">V1</DispatcherVersion>
 	<RBlueprintSetPreLoad/>
 	<NamedEntity>
-		<cScenarioProperties-cGuidToNameMapping d:id="913482320">
+		<cScenarioProperties-cGuidToNameMapping d:id="1520235832">
+			<Guid>
+				<cGUID>
+					<UUID>
+						<e d:type="sUInt64">5195744006330686996</e>
+						<e d:type="sUInt64">1126126788190288831</e>
+					</UUID>
+					<DevString d:type="cDeltaString">41349e14-fda5-481a-bf3b-22ee58cea00f</DevString>
+				</cGUID>
+			</Guid>
+			<Name d:type="cDeltaString">Halsted_Orn_N</Name>
+		</cScenarioProperties-cGuidToNameMapping>
+		<cScenarioProperties-cGuidToNameMapping d:id="1520237832">
+			<Guid>
+				<cGUID>
+					<UUID>
+						<e d:type="sUInt64">5605580112862664224</e>
+						<e d:type="sUInt64">6138353248363495814</e>
+					</UUID>
+					<DevString d:type="cDeltaString">bb2c5620-0569-4dcb-8641-92cac1cf2f55</DevString>
+				</cGUID>
+			</Guid>
+			<Name d:type="cDeltaString">Halsted_Orn_S</Name>
+		</cScenarioProperties-cGuidToNameMapping>
+		<cScenarioProperties-cGuidToNameMapping d:id="1520234112">
 			<Guid>
 				<cGUID>
 					<UUID>
@@ -281,7 +305,7 @@
 			</Guid>
 			<Name d:type="cDeltaString">Roosevelt_GrnOrn_N</Name>
 		</cScenarioProperties-cGuidToNameMapping>
-		<cScenarioProperties-cGuidToNameMapping d:id="913482560">
+		<cScenarioProperties-cGuidToNameMapping d:id="1520234192">
 			<Guid>
 				<cGUID>
 					<UUID>
@@ -300,7 +324,7 @@
 	<CareerRules>
 		<d:nil/>
 	</CareerRules>
-	<MD5 d:type="cDeltaString">4466792F8EB8A833D1FFE02CBA2B15DD</MD5>
+	<MD5 d:type="cDeltaString">50C57A34E1F74FB3A3E19F769440608C</MD5>
 	<MessageEvent/>
 	<SimpleControlsOnly d:type="bool">0</SimpleControlsOnly>
 	<ExpertControlsOnly d:type="bool">0</ExpertControlsOnly>
