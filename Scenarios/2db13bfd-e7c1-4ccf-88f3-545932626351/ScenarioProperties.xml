@@ -1,0 +1,969 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cScenarioProperties xmlns:d="http://www.kuju.com/TnT/2003/Delta" d:version="1.0" d:id="905453784">
+	<ID>
+		<cGUID>
+			<UUID>
+				<e d:type="sUInt64">5534897283942923261</e>
+				<e d:type="sUInt64">5864639108153144200</e>
+			</UUID>
+			<DevString d:type="cDeltaString">2db13bfd-e7c1-4ccf-88f3-545932626351</DevString>
+		</cGUID>
+	</ID>
+	<String/>
+	<DisplayName>
+		<Localisation-cUserLocalisedString>
+			<English d:type="cDeltaString">[CTA] Brown Line Free Roam (Night)</English>
+			<French d:type="cDeltaString"></French>
+			<Italian d:type="cDeltaString"></Italian>
+			<German d:type="cDeltaString"></German>
+			<Spanish d:type="cDeltaString"></Spanish>
+			<Dutch d:type="cDeltaString"></Dutch>
+			<Polish d:type="cDeltaString"></Polish>
+			<Russian d:type="cDeltaString"></Russian>
+			<Other/>
+			<Key d:type="cDeltaString">b9c1ec62-d84d-4e42-a941-be9eb3711239</Key>
+		</Localisation-cUserLocalisedString>
+	</DisplayName>
+	<Description>
+		<Localisation-cUserLocalisedString>
+			<English d:type="cDeltaString"></English>
+			<French d:type="cDeltaString"></French>
+			<Italian d:type="cDeltaString"></Italian>
+			<German d:type="cDeltaString"></German>
+			<Spanish d:type="cDeltaString"></Spanish>
+			<Dutch d:type="cDeltaString"></Dutch>
+			<Polish d:type="cDeltaString"></Polish>
+			<Russian d:type="cDeltaString"></Russian>
+			<Other/>
+			<Key d:type="cDeltaString">44406c84-7f27-45ec-b152-dfe3ca52dd91</Key>
+		</Localisation-cUserLocalisedString>
+	</Description>
+	<Briefing>
+		<Localisation-cUserLocalisedString>
+			<English d:type="cDeltaString"></English>
+			<French d:type="cDeltaString"></French>
+			<Italian d:type="cDeltaString"></Italian>
+			<German d:type="cDeltaString"></German>
+			<Spanish d:type="cDeltaString"></Spanish>
+			<Dutch d:type="cDeltaString"></Dutch>
+			<Polish d:type="cDeltaString"></Polish>
+			<Russian d:type="cDeltaString"></Russian>
+			<Other/>
+			<Key d:type="cDeltaString">1c1d0b3a-4fe0-4912-adb8-6374d2924803</Key>
+		</Localisation-cUserLocalisedString>
+	</Briefing>
+	<StartLocation>
+		<Localisation-cUserLocalisedString>
+			<English d:type="cDeltaString">Kimball (Brown)</English>
+			<French d:type="cDeltaString"></French>
+			<Italian d:type="cDeltaString"></Italian>
+			<German d:type="cDeltaString"></German>
+			<Spanish d:type="cDeltaString"></Spanish>
+			<Dutch d:type="cDeltaString"></Dutch>
+			<Polish d:type="cDeltaString"></Polish>
+			<Russian d:type="cDeltaString"></Russian>
+			<Other/>
+			<Key d:type="cDeltaString">ed688355-5bbc-48e5-9bdc-719f46f5d9e6</Key>
+		</Localisation-cUserLocalisedString>
+	</StartLocation>
+	<ScenarioClass d:type="cDeltaString">eFreeRoamScenarioClass</ScenarioClass>
+	<StartTime d:type="sFloat32" d:alt_encoding="000000000094F140" d:precision="string">72000</StartTime>
+	<DurationMins d:type="sInt32">90</DurationMins>
+	<StartDD d:type="sInt32">11</StartDD>
+	<StartMM d:type="sInt32">11</StartMM>
+	<StartYYYY d:type="sInt32">2015</StartYYYY>
+	<Season d:type="cDeltaString">SEASON_AUTUMN</Season>
+	<WeatherBlueprint>
+		<iBlueprintLibrary-cAbsoluteBlueprintID>
+			<BlueprintSetID>
+				<iBlueprintLibrary-cBlueprintSetID>
+					<Provider d:type="cDeltaString">Kuju</Provider>
+					<Product d:type="cDeltaString">RailSimulatorCore</Product>
+				</iBlueprintLibrary-cBlueprintSetID>
+			</BlueprintSetID>
+			<BlueprintID d:type="cDeltaString">Weather\SL_Clear.xml</BlueprintID>
+		</iBlueprintLibrary-cAbsoluteBlueprintID>
+	</WeatherBlueprint>
+	<WeatherExtensionBlueprint>
+		<iBlueprintLibrary-cAbsoluteBlueprintID>
+			<BlueprintSetID>
+				<iBlueprintLibrary-cBlueprintSetID>
+					<Provider d:type="cDeltaString"></Provider>
+					<Product d:type="cDeltaString"></Product>
+				</iBlueprintLibrary-cBlueprintSetID>
+			</BlueprintSetID>
+			<BlueprintID d:type="cDeltaString"></BlueprintID>
+		</iBlueprintLibrary-cAbsoluteBlueprintID>
+	</WeatherExtensionBlueprint>
+	<Rating d:type="sInt32">1</Rating>
+	<LocoClass d:type="cDeltaString">LOCO_NO_CLASS</LocoClass>
+	<HasRollingStart d:type="bool">0</HasRollingStart>
+	<LoadedFromRollingStart d:type="bool">0</LoadedFromRollingStart>
+	<FrontEndDriverList>
+		<sDriverFrontEndDetails d:id="105683232">
+			<ServiceName>
+				<Localisation-cUserLocalisedString>
+					<English d:type="cDeltaString">Brown Line 420</English>
+					<French d:type="cDeltaString"></French>
+					<Italian d:type="cDeltaString"></Italian>
+					<German d:type="cDeltaString"></German>
+					<Spanish d:type="cDeltaString"></Spanish>
+					<Dutch d:type="cDeltaString"></Dutch>
+					<Polish d:type="cDeltaString"></Polish>
+					<Russian d:type="cDeltaString"></Russian>
+					<Other/>
+					<Key d:type="cDeltaString">9c27eda3-a033-442b-bec5-760efc0a9aef</Key>
+				</Localisation-cUserLocalisedString>
+			</ServiceName>
+			<LocoName>
+				<Localisation-cUserLocalisedString>
+					<English d:type="cDeltaString">[CTA] Bombardier 5000-series (with ATO)</English>
+					<French d:type="cDeltaString"></French>
+					<Italian d:type="cDeltaString"></Italian>
+					<German d:type="cDeltaString"></German>
+					<Spanish d:type="cDeltaString"></Spanish>
+					<Dutch d:type="cDeltaString"></Dutch>
+					<Polish d:type="cDeltaString"></Polish>
+					<Russian d:type="cDeltaString"></Russian>
+					<Other/>
+					<Key d:type="cDeltaString">bc91c186-35f2-4485-b725-cf377590b67f</Key>
+				</Localisation-cUserLocalisedString>
+			</LocoName>
+			<LocoBP>
+				<iBlueprintLibrary-cAbsoluteBlueprintID>
+					<BlueprintSetID>
+						<iBlueprintLibrary-cBlueprintSetID>
+							<Provider d:type="cDeltaString">briman0094</Provider>
+							<Product d:type="cDeltaString">CTA</Product>
+						</iBlueprintLibrary-cBlueprintSetID>
+					</BlueprintSetID>
+					<BlueprintID d:type="cDeltaString">RailVehicles\Electric\CTA5000\CTA5000\CTA5000 ATO.xml</BlueprintID>
+				</iBlueprintLibrary-cAbsoluteBlueprintID>
+			</LocoBP>
+			<StartLocation>
+				<Localisation-cUserLocalisedString>
+					<English d:type="cDeltaString">Kimball - Brown - Platform 1</English>
+					<French d:type="cDeltaString"></French>
+					<Italian d:type="cDeltaString"></Italian>
+					<German d:type="cDeltaString"></German>
+					<Spanish d:type="cDeltaString"></Spanish>
+					<Dutch d:type="cDeltaString"></Dutch>
+					<Polish d:type="cDeltaString"></Polish>
+					<Russian d:type="cDeltaString"></Russian>
+					<Other/>
+					<Key d:type="cDeltaString">fcbe551a-1200-4d3e-9aef-838d24ae790f</Key>
+				</Localisation-cUserLocalisedString>
+			</StartLocation>
+			<LocoClass d:type="cDeltaString">LOCO_CLASS_ELECTRIC</LocoClass>
+			<LocoAuthor d:type="cDeltaString">briman0094</LocoAuthor>
+			<FilePath d:type="cDeltaString">briman0094\CTA\RailVehicles\Electric\CTA5000\CTA5000</FilePath>
+			<Longitude d:type="sFloat64" d:alt_encoding="00000000A4ED55C0" d:precision="string">-87.7131</Longitude>
+			<Latitude d:type="sFloat64" d:alt_encoding="00000020E8FB4440" d:precision="string">41.968</Latitude>
+			<Height d:type="sFloat32" d:alt_encoding="000000A01D2FE03F" d:precision="string">0.505751</Height>
+			<PlayerDriver d:type="bool">0</PlayerDriver>
+		</sDriverFrontEndDetails>
+		<sDriverFrontEndDetails d:id="105684416">
+			<ServiceName>
+				<Localisation-cUserLocalisedString>
+					<English d:type="cDeltaString">APM Test</English>
+					<French d:type="cDeltaString"></French>
+					<Italian d:type="cDeltaString"></Italian>
+					<German d:type="cDeltaString"></German>
+					<Spanish d:type="cDeltaString"></Spanish>
+					<Dutch d:type="cDeltaString"></Dutch>
+					<Polish d:type="cDeltaString"></Polish>
+					<Russian d:type="cDeltaString"></Russian>
+					<Other/>
+					<Key d:type="cDeltaString">1a9661db-b0cb-42c9-9746-d0e86cc2c1c5</Key>
+				</Localisation-cUserLocalisedString>
+			</ServiceName>
+			<LocoName>
+				<Localisation-cUserLocalisedString>
+					<English d:type="cDeltaString">APM400</English>
+					<French d:type="cDeltaString"></French>
+					<Italian d:type="cDeltaString"></Italian>
+					<German d:type="cDeltaString"></German>
+					<Spanish d:type="cDeltaString"></Spanish>
+					<Dutch d:type="cDeltaString"></Dutch>
+					<Polish d:type="cDeltaString"></Polish>
+					<Russian d:type="cDeltaString"></Russian>
+					<Other/>
+					<Key d:type="cDeltaString">3ebea37d-7f01-41f2-94c5-379b489b7a4f</Key>
+				</Localisation-cUserLocalisedString>
+			</LocoName>
+			<LocoBP>
+				<iBlueprintLibrary-cAbsoluteBlueprintID>
+					<BlueprintSetID>
+						<iBlueprintLibrary-cBlueprintSetID>
+							<Provider d:type="cDeltaString">briman0094</Provider>
+							<Product d:type="cDeltaString">APM</Product>
+						</iBlueprintLibrary-cBlueprintSetID>
+					</BlueprintSetID>
+					<BlueprintID d:type="cDeltaString">RailVehicles\Electric\APM400\APM400\APM400.xml</BlueprintID>
+				</iBlueprintLibrary-cAbsoluteBlueprintID>
+			</LocoBP>
+			<StartLocation>
+				<Localisation-cUserLocalisedString>
+					<English d:type="cDeltaString">Kimball - Brown - Platform 3</English>
+					<French d:type="cDeltaString"></French>
+					<Italian d:type="cDeltaString"></Italian>
+					<German d:type="cDeltaString"></German>
+					<Spanish d:type="cDeltaString"></Spanish>
+					<Dutch d:type="cDeltaString"></Dutch>
+					<Polish d:type="cDeltaString"></Polish>
+					<Russian d:type="cDeltaString"></Russian>
+					<Other/>
+					<Key d:type="cDeltaString">b974ba78-ad6b-47ed-ad04-7827088f85b6</Key>
+				</Localisation-cUserLocalisedString>
+			</StartLocation>
+			<LocoClass d:type="cDeltaString">LOCO_CLASS_ELECTRIC</LocoClass>
+			<LocoAuthor d:type="cDeltaString">briman0094</LocoAuthor>
+			<FilePath d:type="cDeltaString">briman0094\APM\RailVehicles\Electric\APM400\APM400</FilePath>
+			<Longitude d:type="sFloat64" d:alt_encoding="00000000A2ED55C0" d:precision="string">-87.713</Longitude>
+			<Latitude d:type="sFloat64" d:alt_encoding="000000A0E8FB4440" d:precision="string">41.968</Latitude>
+			<Height d:type="sFloat32" d:alt_encoding="000000E0A947E03F" d:precision="string">0.508748</Height>
+			<PlayerDriver d:type="bool">0</PlayerDriver>
+		</sDriverFrontEndDetails>
+	</FrontEndDriverList>
+	<RequiredSet>
+		<iBlueprintLibrary-cBlueprintSetID d:id="106025120">
+			<Provider d:type="cDeltaString">briman0094</Provider>
+			<Product d:type="cDeltaString">APM</Product>
+		</iBlueprintLibrary-cBlueprintSetID>
+		<iBlueprintLibrary-cBlueprintSetID d:id="106025128">
+			<Provider d:type="cDeltaString">briman0094</Provider>
+			<Product d:type="cDeltaString">CTA</Product>
+		</iBlueprintLibrary-cBlueprintSetID>
+	</RequiredSet>
+	<Gizmo>
+		<cOwnedEntity d:id="649792392">
+			<Component>
+				<cEditorSceneryRender d:id="909716456">
+					<DetailLevel d:type="sInt32">10</DetailLevel>
+					<Global d:type="bool">0</Global>
+					<Saved d:type="bool">1</Saved>
+					<Palette0Index d:type="sUInt8">28</Palette0Index>
+					<Palette1Index d:type="sUInt8">68</Palette1Index>
+					<Palette2Index d:type="sUInt8">10</Palette2Index>
+				</cEditorSceneryRender>
+				<cPosOri d:id="649792032">
+					<Scale d:numElements="4" d:elementType="sFloat32" d:precision="string">1.0000000 1.0000000 1.0000000 0.0000000</Scale>
+					<RFarMatrix>
+						<cFarMatrix d:id="649792056">
+							<Height d:type="sFloat32" d:alt_encoding="0000006045ED1C40" d:precision="string">7.23171</Height>
+							<RXAxis d:numElements="4" d:elementType="sFloat32" d:precision="string">0.9998609 0.0165596 -0.0020153 0.0000000</RXAxis>
+							<RYAxis d:numElements="4" d:elementType="sFloat32" d:precision="string">-0.0158132 0.9793341 0.2016302 0.0000000</RYAxis>
+							<RZAxis d:numElements="4" d:elementType="sFloat32" d:precision="string">0.0053126 -0.2015703 0.9794596 0.0000000</RZAxis>
+							<RFarPosition>
+								<cFarVector2 d:id="649792108">
+									<X>
+										<cFarCoordinate>
+											<RouteCoordinate>
+												<cRouteCoordinate>
+													<Distance d:type="sInt32">-5</Distance>
+												</cRouteCoordinate>
+											</RouteCoordinate>
+											<TileCoordinate>
+												<cTileCoordinate>
+													<Distance d:type="sFloat32" d:alt_encoding="000000205ADC6340" d:precision="string">158.886</Distance>
+												</cTileCoordinate>
+											</TileCoordinate>
+										</cFarCoordinate>
+									</X>
+									<Z>
+										<cFarCoordinate>
+											<RouteCoordinate>
+												<cRouteCoordinate>
+													<Distance d:type="sInt32">4</Distance>
+												</cRouteCoordinate>
+											</RouteCoordinate>
+											<TileCoordinate>
+												<cTileCoordinate>
+													<Distance d:type="sFloat32" d:alt_encoding="000000C0A1AD8140" d:precision="string">565.704</Distance>
+												</cTileCoordinate>
+											</TileCoordinate>
+										</cFarCoordinate>
+									</Z>
+								</cFarVector2>
+							</RFarPosition>
+						</cFarMatrix>
+					</RFarMatrix>
+				</cPosOri>
+				<cScriptComponent d:id="650979192">
+					<DebugDisplay d:type="bool">1</DebugDisplay>
+					<StateName d:type="cDeltaString"></StateName>
+				</cScriptComponent>
+			</Component>
+			<BlueprintID>
+				<iBlueprintLibrary-cAbsoluteBlueprintID>
+					<BlueprintSetID>
+						<iBlueprintLibrary-cBlueprintSetID>
+							<Provider d:type="cDeltaString">Kuju</Provider>
+							<Product d:type="cDeltaString">RailSimulatorCore</Product>
+						</iBlueprintLibrary-cBlueprintSetID>
+					</BlueprintSetID>
+					<BlueprintID d:type="cDeltaString">Editor\Gizmo\Scenario Markers\Free Roam Scenario Marker.xml</BlueprintID>
+				</iBlueprintLibrary-cAbsoluteBlueprintID>
+			</BlueprintID>
+			<ReskinBlueprintID>
+				<iBlueprintLibrary-cAbsoluteBlueprintID>
+					<BlueprintSetID>
+						<iBlueprintLibrary-cBlueprintSetID>
+							<Provider d:type="cDeltaString"></Provider>
+							<Product d:type="cDeltaString"></Product>
+						</iBlueprintLibrary-cBlueprintSetID>
+					</BlueprintSetID>
+					<BlueprintID d:type="cDeltaString"></BlueprintID>
+				</iBlueprintLibrary-cAbsoluteBlueprintID>
+			</ReskinBlueprintID>
+			<Name d:type="cDeltaString">Free Roam Scenario Marker</Name>
+			<EntityID>
+				<cGUID>
+					<UUID>
+						<e d:type="sUInt64">4923331854404555044</e>
+						<e d:type="sUInt64">371520792406937021</e>
+					</UUID>
+					<DevString d:type="cDeltaString">95261124-303c-4453-bd4d-163a31e82705</DevString>
+				</cGUID>
+			</EntityID>
+		</cOwnedEntity>
+	</Gizmo>
+	<SimulationTime d:type="sFloat32" d:alt_encoding="0000000000000000" d:precision="string">0</SimulationTime>
+	<AuthoredLanguage d:type="cDeltaString">en</AuthoredLanguage>
+	<Version d:type="sFloat32" d:alt_encoding="000000000000F03F" d:precision="string">1</Version>
+	<Author d:type="cDeltaString">briman0094</Author>
+	<DispatcherVersion d:type="cDeltaString">V1</DispatcherVersion>
+	<RBlueprintSetPreLoad>
+		<iBlueprintLibrary-cBlueprintSetID d:id="106025216">
+			<Provider d:type="cDeltaString">briman0094</Provider>
+			<Product d:type="cDeltaString">CTA</Product>
+		</iBlueprintLibrary-cBlueprintSetID>
+		<iBlueprintLibrary-cBlueprintSetID d:id="106025224">
+			<Provider d:type="cDeltaString">RSC</Provider>
+			<Product d:type="cDeltaString">BrightonMainLine</Product>
+		</iBlueprintLibrary-cBlueprintSetID>
+		<iBlueprintLibrary-cBlueprintSetID d:id="106025232">
+			<Provider d:type="cDeltaString">briman0094</Provider>
+			<Product d:type="cDeltaString">APM</Product>
+		</iBlueprintLibrary-cBlueprintSetID>
+		<iBlueprintLibrary-cBlueprintSetID d:id="106025240">
+			<Provider d:type="cDeltaString">RSC</Provider>
+			<Product d:type="cDeltaString">BR424Pack01</Product>
+		</iBlueprintLibrary-cBlueprintSetID>
+	</RBlueprintSetPreLoad>
+	<NamedEntity>
+		<cScenarioProperties-cGuidToNameMapping d:id="649102472">
+			<Guid>
+				<cGUID>
+					<UUID>
+						<e d:type="sUInt64">5242500165247043641</e>
+						<e d:type="sUInt64">15118721558529259182</e>
+					</UUID>
+					<DevString d:type="cDeltaString">d47a0839-1a1f-48c1-ae36-2db2277dd0d1</DevString>
+				</cGUID>
+			</Guid>
+			<Name d:type="cDeltaString">Addison_Brn_N</Name>
+		</cScenarioProperties-cGuidToNameMapping>
+		<cScenarioProperties-cGuidToNameMapping d:id="649103072">
+			<Guid>
+				<cGUID>
+					<UUID>
+						<e d:type="sUInt64">5650319088024319134</e>
+						<e d:type="sUInt64">12537066524502793654</e>
+					</UUID>
+					<DevString d:type="cDeltaString">1d4c749e-f746-4e69-b61d-6e6e949bfcad</DevString>
+				</cGUID>
+			</Guid>
+			<Name d:type="cDeltaString">Addison_Brn_S</Name>
+		</cScenarioProperties-cGuidToNameMapping>
+		<cScenarioProperties-cGuidToNameMapping d:id="649103232">
+			<Guid>
+				<cGUID>
+					<UUID>
+						<e d:type="sUInt64">5013697873955641377</e>
+						<e d:type="sUInt64">12597507602228356283</e>
+					</UUID>
+					<DevString d:type="cDeltaString">1441d821-3ba7-4594-bba4-1a766b56d3ae</DevString>
+				</cGUID>
+			</Guid>
+			<Name d:type="cDeltaString">Armitage_BrnPur_N</Name>
+		</cScenarioProperties-cGuidToNameMapping>
+		<cScenarioProperties-cGuidToNameMapping d:id="649102512">
+			<Guid>
+				<cGUID>
+					<UUID>
+						<e d:type="sUInt64">5050160205325673793</e>
+						<e d:type="sUInt64">17883277068018913691</e>
+					</UUID>
+					<DevString d:type="cDeltaString">29402541-c5f3-4615-9b11-2863be292ef8</DevString>
+				</cGUID>
+			</Guid>
+			<Name d:type="cDeltaString">Armitage_BrnPur_S</Name>
+		</cScenarioProperties-cGuidToNameMapping>
+		<cScenarioProperties-cGuidToNameMapping d:id="649102152">
+			<Guid>
+				<cGUID>
+					<UUID>
+						<e d:type="sUInt64">5219913441087699850</e>
+						<e d:type="sUInt64">5891154523715794818</e>
+					</UUID>
+					<DevString d:type="cDeltaString">4e51bb8a-db9e-4870-82f7-039fd395c151</DevString>
+				</cGUID>
+			</Guid>
+			<Name d:type="cDeltaString">Belmont_BrnPur_N</Name>
+		</cScenarioProperties-cGuidToNameMapping>
+		<cScenarioProperties-cGuidToNameMapping d:id="649102832">
+			<Guid>
+				<cGUID>
+					<UUID>
+						<e d:type="sUInt64">5334817594049575308</e>
+						<e d:type="sUInt64">9520892878912815747</e>
+					</UUID>
+					<DevString d:type="cDeltaString">32d4398c-1456-4a09-8302-2528a1012184</DevString>
+				</cGUID>
+			</Guid>
+			<Name d:type="cDeltaString">Belmont_BrnPur_S</Name>
+		</cScenarioProperties-cGuidToNameMapping>
+		<cScenarioProperties-cGuidToNameMapping d:id="649102872">
+			<Guid>
+				<cGUID>
+					<UUID>
+						<e d:type="sUInt64">5077656364325953362</e>
+						<e d:type="sUInt64">10565758257646565033</e>
+					</UUID>
+					<DevString d:type="cDeltaString">8f265f52-758f-4677-a976-acd1271da192</DevString>
+				</cGUID>
+			</Guid>
+			<Name d:type="cDeltaString">Belmont_Red_N</Name>
+		</cScenarioProperties-cGuidToNameMapping>
+		<cScenarioProperties-cGuidToNameMapping d:id="649102992">
+			<Guid>
+				<cGUID>
+					<UUID>
+						<e d:type="sUInt64">4724413442325680677</e>
+						<e d:type="sUInt64">8268802163685614766</e>
+					</UUID>
+					<DevString d:type="cDeltaString">a9e71225-7cfe-4190-ae64-7604c2afc072</DevString>
+				</cGUID>
+			</Guid>
+			<Name d:type="cDeltaString">Belmont_Red_S</Name>
+		</cScenarioProperties-cGuidToNameMapping>
+		<cScenarioProperties-cGuidToNameMapping d:id="649102432">
+			<Guid>
+				<cGUID>
+					<UUID>
+						<e d:type="sUInt64">5111903055629507740</e>
+						<e d:type="sUInt64">4645508913569297340</e>
+					</UUID>
+					<DevString d:type="cDeltaString">bd07dc9c-20be-46f1-bc73-3572be297840</DevString>
+				</cGUID>
+			</Guid>
+			<Name d:type="cDeltaString">ChicagoFranklin_BrnPur_N</Name>
+		</cScenarioProperties-cGuidToNameMapping>
+		<cScenarioProperties-cGuidToNameMapping d:id="649102912">
+			<Guid>
+				<cGUID>
+					<UUID>
+						<e d:type="sUInt64">5030704919544652230</e>
+						<e d:type="sUInt64">4731435499921445810</e>
+					</UUID>
+					<DevString d:type="cDeltaString">7344e1c6-a778-45d0-b293-7dda846fa941</DevString>
+				</cGUID>
+			</Guid>
+			<Name d:type="cDeltaString">ChicagoFranklin_BrnPur_S</Name>
+		</cScenarioProperties-cGuidToNameMapping>
+		<cScenarioProperties-cGuidToNameMapping d:id="649102632">
+			<Guid>
+				<cGUID>
+					<UUID>
+						<e d:type="sUInt64">4748219233701080455</e>
+						<e d:type="sUInt64">2425165589660869000</e>
+					</UUID>
+					<DevString d:type="cDeltaString">646e2d87-103c-41e5-88a1-3c3541eba721</DevString>
+				</cGUID>
+			</Guid>
+			<Name d:type="cDeltaString">Damen_Brn_N</Name>
+		</cScenarioProperties-cGuidToNameMapping>
+		<cScenarioProperties-cGuidToNameMapping d:id="649103112">
+			<Guid>
+				<cGUID>
+					<UUID>
+						<e d:type="sUInt64">5469217541467579258</e>
+						<e d:type="sUInt64">7930849316212298939</e>
+					</UUID>
+					<DevString d:type="cDeltaString">7682a37a-9060-4be6-bbd4-fb036f09106e</DevString>
+				</cGUID>
+			</Guid>
+			<Name d:type="cDeltaString">Damen_Brn_S</Name>
+		</cScenarioProperties-cGuidToNameMapping>
+		<cScenarioProperties-cGuidToNameMapping d:id="649103432">
+			<Guid>
+				<cGUID>
+					<UUID>
+						<e d:type="sUInt64">5318755802708540506</e>
+						<e d:type="sUInt64">7230550498127635095</e>
+					</UUID>
+					<DevString d:type="cDeltaString">fb7d7c5a-0438-49d0-97e2-6b735e135864</DevString>
+				</cGUID>
+			</Guid>
+			<Name d:type="cDeltaString">Diversey_BrnPur_N</Name>
+		</cScenarioProperties-cGuidToNameMapping>
+		<cScenarioProperties-cGuidToNameMapping d:id="649103152">
+			<Guid>
+				<cGUID>
+					<UUID>
+						<e d:type="sUInt64">4729347268483968377</e>
+						<e d:type="sUInt64">480171917018996373</e>
+					</UUID>
+					<DevString d:type="cDeltaString">95736d79-0448-41a2-951e-0981d0e9a906</DevString>
+				</cGUID>
+			</Guid>
+			<Name d:type="cDeltaString">Diversey_BrnPur_S</Name>
+		</cScenarioProperties-cGuidToNameMapping>
+		<cScenarioProperties-cGuidToNameMapping d:id="649103312">
+			<Guid>
+				<cGUID>
+					<UUID>
+						<e d:type="sUInt64">5760682551283672430</e>
+						<e d:type="sUInt64">5924659203582390924</e>
+					</UUID>
+					<DevString d:type="cDeltaString">4d0de56e-0e42-4ff2-8cf2-c6cc279e3852</DevString>
+				</cGUID>
+			</Guid>
+			<Name d:type="cDeltaString">Francisco_Brn_N</Name>
+		</cScenarioProperties-cGuidToNameMapping>
+		<cScenarioProperties-cGuidToNameMapping d:id="649103392">
+			<Guid>
+				<cGUID>
+					<UUID>
+						<e d:type="sUInt64">4811835411874336146</e>
+						<e d:type="sUInt64">17324800007229226150</e>
+					</UUID>
+					<DevString d:type="cDeltaString">1a6a4d92-12d0-42c7-a63c-95dbd00d6ef0</DevString>
+				</cGUID>
+			</Guid>
+			<Name d:type="cDeltaString">Francisco_Brn_S</Name>
+		</cScenarioProperties-cGuidToNameMapping>
+		<cScenarioProperties-cGuidToNameMapping d:id="649101592">
+			<Guid>
+				<cGUID>
+					<UUID>
+						<e d:type="sUInt64">5335212299060902198</e>
+						<e d:type="sUInt64">16901483173145676979</e>
+					</UUID>
+					<DevString d:type="cDeltaString">9ed1f936-7b51-4a0a-b30c-97e865218eea</DevString>
+				</cGUID>
+			</Guid>
+			<Name d:type="cDeltaString">Fullerton_BrnPur_N</Name>
+		</cScenarioProperties-cGuidToNameMapping>
+		<cScenarioProperties-cGuidToNameMapping d:id="649101752">
+			<Guid>
+				<cGUID>
+					<UUID>
+						<e d:type="sUInt64">5635056438540816541</e>
+						<e d:type="sUInt64">11332994262948768142</e>
+					</UUID>
+					<DevString d:type="cDeltaString">9c80d09d-bdf9-4e33-8ee9-99c43ce2469d</DevString>
+				</cGUID>
+			</Guid>
+			<Name d:type="cDeltaString">Fullerton_BrnPur_S</Name>
+		</cScenarioProperties-cGuidToNameMapping>
+		<cScenarioProperties-cGuidToNameMapping d:id="649101512">
+			<Guid>
+				<cGUID>
+					<UUID>
+						<e d:type="sUInt64">4911823971568723052</e>
+						<e d:type="sUInt64">17097947606129475494</e>
+					</UUID>
+					<DevString d:type="cDeltaString">d09a246c-4de0-442a-a67f-964bc21c48ed</DevString>
+				</cGUID>
+			</Guid>
+			<Name d:type="cDeltaString">Fullerton_BrnPur_S
+</Name>
+		</cScenarioProperties-cGuidToNameMapping>
+		<cScenarioProperties-cGuidToNameMapping d:id="649101712">
+			<Guid>
+				<cGUID>
+					<UUID>
+						<e d:type="sUInt64">5074645809614289467</e>
+						<e d:type="sUInt64">11927980311237410959</e>
+					</UUID>
+					<DevString d:type="cDeltaString">2afbfa3b-c37a-466c-8fc0-285be5b288a5</DevString>
+				</cGUID>
+			</Guid>
+			<Name d:type="cDeltaString">Fullerton_Red_
+S
+</Name>
+		</cScenarioProperties-cGuidToNameMapping>
+		<cScenarioProperties-cGuidToNameMapping d:id="649101912">
+			<Guid>
+				<cGUID>
+					<UUID>
+						<e d:type="sUInt64">5085228823437306846</e>
+						<e d:type="sUInt64">142263854813582233</e>
+					</UUID>
+					<DevString d:type="cDeltaString">168eebde-5cac-4692-9993-8ae2386cf901</DevString>
+				</cGUID>
+			</Guid>
+			<Name d:type="cDeltaString">Fullerton_Red_N</Name>
+		</cScenarioProperties-cGuidToNameMapping>
+		<cScenarioProperties-cGuidToNameMapping d:id="649102072">
+			<Guid>
+				<cGUID>
+					<UUID>
+						<e d:type="sUInt64">5182360464277552590</e>
+						<e d:type="sUInt64">13173238014685324216</e>
+					</UUID>
+					<DevString d:type="cDeltaString">8b4abdce-7162-47eb-b8a3-fdf62dbed0b6</DevString>
+				</cGUID>
+			</Guid>
+			<Name d:type="cDeltaString">IrvingPark_Brn_N</Name>
+		</cScenarioProperties-cGuidToNameMapping>
+		<cScenarioProperties-cGuidToNameMapping d:id="649101552">
+			<Guid>
+				<cGUID>
+					<UUID>
+						<e d:type="sUInt64">5329570598007757816</e>
+						<e d:type="sUInt64">18253480329275469442</e>
+					</UUID>
+					<DevString d:type="cDeltaString">bb9e5bf8-7038-49f6-826e-0bfda56351fd</DevString>
+				</cGUID>
+			</Guid>
+			<Name d:type="cDeltaString">IrvingPark_Brn_S</Name>
+		</cScenarioProperties-cGuidToNameMapping>
+		<cScenarioProperties-cGuidToNameMapping d:id="649472896">
+			<Guid>
+				<cGUID>
+					<UUID>
+						<e d:type="sUInt64">5462381288262679963</e>
+						<e d:type="sUInt64">6475725592121755305</e>
+					</UUID>
+					<DevString d:type="cDeltaString">3aa33d9b-46d7-4bce-a9c6-52bd1d66de59</DevString>
+				</cGUID>
+			</Guid>
+			<Name d:type="cDeltaString">Kedzie_Brn_N</Name>
+		</cScenarioProperties-cGuidToNameMapping>
+		<cScenarioProperties-cGuidToNameMapping d:id="649472736">
+			<Guid>
+				<cGUID>
+					<UUID>
+						<e d:type="sUInt64">4937317978999768949</e>
+						<e d:type="sUInt64">6271932200071672749</e>
+					</UUID>
+					<DevString d:type="cDeltaString">f96e4775-e08a-4484-ad33-9b181b610a57</DevString>
+				</cGUID>
+			</Guid>
+			<Name d:type="cDeltaString">Kedzie_Brn_S</Name>
+		</cScenarioProperties-cGuidToNameMapping>
+		<cScenarioProperties-cGuidToNameMapping d:id="649473016">
+			<Guid>
+				<cGUID>
+					<UUID>
+						<e d:type="sUInt64">5611083615969077417</e>
+						<e d:type="sUInt64">2731250978296839839</e>
+					</UUID>
+					<DevString d:type="cDeltaString">e6d9e8a9-92d1-4dde-9f3e-d2414b5ae725</DevString>
+				</cGUID>
+			</Guid>
+			<Name d:type="cDeltaString">Kimball_Brn_Platform1</Name>
+		</cScenarioProperties-cGuidToNameMapping>
+		<cScenarioProperties-cGuidToNameMapping d:id="649472976">
+			<Guid>
+				<cGUID>
+					<UUID>
+						<e d:type="sUInt64">4873866072399529239</e>
+						<e d:type="sUInt64">18349358561530497971</e>
+					</UUID>
+					<DevString d:type="cDeltaString">b833c517-735e-43a3-b34b-4c846404a6fe</DevString>
+				</cGUID>
+			</Guid>
+			<Name d:type="cDeltaString">Kimball_Brn_Platform2</Name>
+		</cScenarioProperties-cGuidToNameMapping>
+		<cScenarioProperties-cGuidToNameMapping d:id="649472696">
+			<Guid>
+				<cGUID>
+					<UUID>
+						<e d:type="sUInt64">5035367916199334993</e>
+						<e d:type="sUInt64">12438833375463081896</e>
+					</UUID>
+					<DevString d:type="cDeltaString">f675d451-3870-45e1-a807-c01c0d9d9fac</DevString>
+				</cGUID>
+			</Guid>
+			<Name d:type="cDeltaString">Kimball_Brn_Platform3</Name>
+		</cScenarioProperties-cGuidToNameMapping>
+		<cScenarioProperties-cGuidToNameMapping d:id="649472416">
+			<Guid>
+				<cGUID>
+					<UUID>
+						<e d:type="sUInt64">5390126594789734020</e>
+						<e d:type="sUInt64">15616707755143898506</e>
+					</UUID>
+					<DevString d:type="cDeltaString">70d3f684-9394-4acd-8aa5-7062f6b0b9d8</DevString>
+				</cGUID>
+			</Guid>
+			<Name d:type="cDeltaString">MerchandiseMart_BrnPur_N</Name>
+		</cScenarioProperties-cGuidToNameMapping>
+		<cScenarioProperties-cGuidToNameMapping d:id="649472536">
+			<Guid>
+				<cGUID>
+					<UUID>
+						<e d:type="sUInt64">4698712679719595330</e>
+						<e d:type="sUInt64">315248501215724193</e>
+					</UUID>
+					<DevString d:type="cDeltaString">904f6d42-2e49-4135-a102-f072d7fc5f04</DevString>
+				</cGUID>
+			</Guid>
+			<Name d:type="cDeltaString">MerchandiseMart_BrnPur_S</Name>
+		</cScenarioProperties-cGuidToNameMapping>
+		<cScenarioProperties-cGuidToNameMapping d:id="649472816">
+			<Guid>
+				<cGUID>
+					<UUID>
+						<e d:type="sUInt64">4857960930101636247</e>
+						<e d:type="sUInt64">8983491536744039808</e>
+					</UUID>
+					<DevString d:type="cDeltaString">336f2c97-f1ba-436a-8045-5bc2f4c5ab7c</DevString>
+				</cGUID>
+			</Guid>
+			<Name d:type="cDeltaString">Montrose_Brn_N</Name>
+		</cScenarioProperties-cGuidToNameMapping>
+		<cScenarioProperties-cGuidToNameMapping d:id="649472936">
+			<Guid>
+				<cGUID>
+					<UUID>
+						<e d:type="sUInt64">4795134962289617103</e>
+						<e d:type="sUInt64">9871915861827795110</e>
+					</UUID>
+					<DevString d:type="cDeltaString">ad5428cf-bdd7-428b-a638-ca342c170089</DevString>
+				</cGUID>
+			</Guid>
+			<Name d:type="cDeltaString">Montrose_Brn_S</Name>
+		</cScenarioProperties-cGuidToNameMapping>
+		<cScenarioProperties-cGuidToNameMapping d:id="649472576">
+			<Guid>
+				<cGUID>
+					<UUID>
+						<e d:type="sUInt64">5336194299086456096</e>
+						<e d:type="sUInt64">16638160247951477892</e>
+					</UUID>
+					<DevString d:type="cDeltaString">51834520-f871-4a0d-844c-2cbf979ee6e6</DevString>
+				</cGUID>
+			</Guid>
+			<Name d:type="cDeltaString">Paulina_Brn_N</Name>
+		</cScenarioProperties-cGuidToNameMapping>
+		<cScenarioProperties-cGuidToNameMapping d:id="649472656">
+			<Guid>
+				<cGUID>
+					<UUID>
+						<e d:type="sUInt64">5680480502755715679</e>
+						<e d:type="sUInt64">17092545267808210351</e>
+					</UUID>
+					<DevString d:type="cDeltaString">b8496a5f-1eeb-4ed5-af0d-fe625ceb34ed</DevString>
+				</cGUID>
+			</Guid>
+			<Name d:type="cDeltaString">Paulina_Brn_S</Name>
+		</cScenarioProperties-cGuidToNameMapping>
+		<cScenarioProperties-cGuidToNameMapping d:id="649473056">
+			<Guid>
+				<cGUID>
+					<UUID>
+						<e d:type="sUInt64">5099401908846281006</e>
+						<e d:type="sUInt64">1510822416955242137</e>
+					</UUID>
+					<DevString d:type="cDeltaString">afbb412e-b704-46c4-9976-50c9fb84f714</DevString>
+				</cGUID>
+			</Guid>
+			<Name d:type="cDeltaString">Rockwell_Brn_N</Name>
+		</cScenarioProperties-cGuidToNameMapping>
+		<cScenarioProperties-cGuidToNameMapping d:id="649473096">
+			<Guid>
+				<cGUID>
+					<UUID>
+						<e d:type="sUInt64">4925899423458824343</e>
+						<e d:type="sUInt64">163992074977271177</e>
+					</UUID>
+					<DevString d:type="cDeltaString">56909097-4f6d-445c-89dd-ff5eec9d4602</DevString>
+				</cGUID>
+			</Guid>
+			<Name d:type="cDeltaString">Rockwell_Brn_S</Name>
+		</cScenarioProperties-cGuidToNameMapping>
+		<cScenarioProperties-cGuidToNameMapping d:id="649473136">
+			<Guid>
+				<cGUID>
+					<UUID>
+						<e d:type="sUInt64">5091537975251361576</e>
+						<e d:type="sUInt64">10475244112627472796</e>
+					</UUID>
+					<DevString d:type="cDeltaString">f744df28-c6cf-46a8-9c99-a92c058b5f91</DevString>
+				</cGUID>
+			</Guid>
+			<Name d:type="cDeltaString">Rockwell_LC_Kimball</Name>
+		</cScenarioProperties-cGuidToNameMapping>
+		<cScenarioProperties-cGuidToNameMapping d:id="649473176">
+			<Guid>
+				<cGUID>
+					<UUID>
+						<e d:type="sUInt64">5592218434050748414</e>
+						<e d:type="sUInt64">2404037264007320995</e>
+					</UUID>
+					<DevString d:type="cDeltaString">73fc6ffe-8d09-4d9b-a355-f58b27db5c21</DevString>
+				</cGUID>
+			</Guid>
+			<Name d:type="cDeltaString">Rockwell_LC_Loop</Name>
+		</cScenarioProperties-cGuidToNameMapping>
+		<cScenarioProperties-cGuidToNameMapping d:id="649473216">
+			<Guid>
+				<cGUID>
+					<UUID>
+						<e d:type="sUInt64">5596985232428998781</e>
+						<e d:type="sUInt64">14592050994641930417</e>
+					</UUID>
+					<DevString d:type="cDeltaString">3009a07d-7c6a-4dac-b188-0450116181ca</DevString>
+				</cGUID>
+			</Guid>
+			<Name d:type="cDeltaString">Sedgwick_BrnPur_N</Name>
+		</cScenarioProperties-cGuidToNameMapping>
+		<cScenarioProperties-cGuidToNameMapping d:id="649473256">
+			<Guid>
+				<cGUID>
+					<UUID>
+						<e d:type="sUInt64">5124917224299899457</e>
+						<e d:type="sUInt64">16546961984357722243</e>
+					</UUID>
+					<DevString d:type="cDeltaString">01ad2a41-5d10-471f-83e8-8855419ea2e5</DevString>
+				</cGUID>
+			</Guid>
+			<Name d:type="cDeltaString">Sedgwick_BrnPur_S</Name>
+		</cScenarioProperties-cGuidToNameMapping>
+		<cScenarioProperties-cGuidToNameMapping d:id="649473296">
+			<Guid>
+				<cGUID>
+					<UUID>
+						<e d:type="sUInt64">4685144108061391253</e>
+						<e d:type="sUInt64">6299350773896311212</e>
+					</UUID>
+					<DevString d:type="cDeltaString">4a837995-f9be-4104-acf1-ab4927ca6b57</DevString>
+				</cGUID>
+			</Guid>
+			<Name d:type="cDeltaString">Southport_Brn_N</Name>
+		</cScenarioProperties-cGuidToNameMapping>
+		<cScenarioProperties-cGuidToNameMapping d:id="649473336">
+			<Guid>
+				<cGUID>
+					<UUID>
+						<e d:type="sUInt64">4642114995418594301</e>
+						<e d:type="sUInt64">2319667075184204732</e>
+					</UUID>
+					<DevString d:type="cDeltaString">4c707bfd-1afe-406c-bc1b-862dea1c3120</DevString>
+				</cGUID>
+			</Guid>
+			<Name d:type="cDeltaString">Southport_Brn_S</Name>
+		</cScenarioProperties-cGuidToNameMapping>
+		<cScenarioProperties-cGuidToNameMapping d:id="649473376">
+			<Guid>
+				<cGUID>
+					<UUID>
+						<e d:type="sUInt64">5617572322727571343</e>
+						<e d:type="sUInt64">5843748512548707206</e>
+					</UUID>
+					<DevString d:type="cDeltaString">ac3e2f8f-a043-4df5-86db-2e874f2a1951</DevString>
+				</cGUID>
+			</Guid>
+			<Name d:type="cDeltaString">WashingtonWells_Inner</Name>
+		</cScenarioProperties-cGuidToNameMapping>
+		<cScenarioProperties-cGuidToNameMapping d:id="649473416">
+			<Guid>
+				<cGUID>
+					<UUID>
+						<e d:type="sUInt64">5520196749251692943</e>
+						<e d:type="sUInt64">18370371428629049523</e>
+					</UUID>
+					<DevString d:type="cDeltaString">3969c98f-adb2-4c9b-b370-6be37babf0fe</DevString>
+				</cGUID>
+			</Guid>
+			<Name d:type="cDeltaString">WashingtonWells_Outer</Name>
+		</cScenarioProperties-cGuidToNameMapping>
+		<cScenarioProperties-cGuidToNameMapping d:id="649473456">
+			<Guid>
+				<cGUID>
+					<UUID>
+						<e d:type="sUInt64">4713591509711715117</e>
+						<e d:type="sUInt64">700671721396083885</e>
+					</UUID>
+					<DevString d:type="cDeltaString">20a9fb2d-0a81-416a-ad9c-f9e13749b909</DevString>
+				</cGUID>
+			</Guid>
+			<Name d:type="cDeltaString">Wellington_BrnPur_N</Name>
+		</cScenarioProperties-cGuidToNameMapping>
+		<cScenarioProperties-cGuidToNameMapping d:id="649473496">
+			<Guid>
+				<cGUID>
+					<UUID>
+						<e d:type="sUInt64">5627360186825417746</e>
+						<e d:type="sUInt64">17921428998215169436</e>
+					</UUID>
+					<DevString d:type="cDeltaString">5ee7a412-6646-4e18-9cf5-ffd9b8b4b5f8</DevString>
+				</cGUID>
+			</Guid>
+			<Name d:type="cDeltaString">Wellington_BrnPur_S</Name>
+		</cScenarioProperties-cGuidToNameMapping>
+		<cScenarioProperties-cGuidToNameMapping d:id="649473536">
+			<Guid>
+				<cGUID>
+					<UUID>
+						<e d:type="sUInt64">4747661572991835603</e>
+						<e d:type="sUInt64">17934843097012242570</e>
+					</UUID>
+					<DevString d:type="cDeltaString">e3f35dd3-150b-41e3-8a08-c81bc65ce5f8</DevString>
+				</cGUID>
+			</Guid>
+			<Name d:type="cDeltaString">Western_Brn_N</Name>
+		</cScenarioProperties-cGuidToNameMapping>
+		<cScenarioProperties-cGuidToNameMapping d:id="649473576">
+			<Guid>
+				<cGUID>
+					<UUID>
+						<e d:type="sUInt64">4710046990775580037</e>
+						<e d:type="sUInt64">16259603642317906367</e>
+					</UUID>
+					<DevString d:type="cDeltaString">80937585-72c8-415d-bfa1-01995db7a5e1</DevString>
+				</cGUID>
+			</Guid>
+			<Name d:type="cDeltaString">Western_Brn_S</Name>
+		</cScenarioProperties-cGuidToNameMapping>
+	</NamedEntity>
+	<Condition/>
+	<DeferredEvent/>
+	<CheckedCondition/>
+	<CareerRules>
+		<d:nil/>
+	</CareerRules>
+	<MD5 d:type="cDeltaString">7B2BEFB50A254101AFC18CDED89AA1EE</MD5>
+	<MessageEvent/>
+	<SimpleControlsOnly d:type="bool">0</SimpleControlsOnly>
+	<ExpertControlsOnly d:type="bool">0</ExpertControlsOnly>
+	<LocksScenario/>
+	<StartDestString/>
+	<TemplateStartDestMapping/>
+	<IsTemplateGenerated d:type="bool">0</IsTemplateGenerated>
+	<TemplateScenarioGUID>
+		<cGUID>
+			<UUID>
+				<e d:type="sUInt64">0</e>
+				<e d:type="sUInt64">0</e>
+			</UUID>
+			<DevString d:type="cDeltaString">00000000-0000-0000-0000-000000000000</DevString>
+		</cGUID>
+	</TemplateScenarioGUID>
+	<WorkshopId d:type="sUInt64">0</WorkshopId>
+	<WorkshopBy d:type="sUInt64">0</WorkshopBy>
+	<WorkshopTags d:type="cDeltaString"></WorkshopTags>
+	<StartInCab d:type="bool">0</StartInCab>
+	<IsClonedDLC d:type="bool">0</IsClonedDLC>
+	<StartLongitude d:type="sFloat64" d:alt_encoding="0000000000000000" d:precision="string">0</StartLongitude>
+	<StartLatitude d:type="sFloat64" d:alt_encoding="0000000000000000" d:precision="string">0</StartLatitude>
+	<StartHeight d:type="sFloat32" d:alt_encoding="0000000000000000" d:precision="string">0</StartHeight>
+	<QuickDriveStartName d:type="cDeltaString"></QuickDriveStartName>
+	<QuickDriveEndName d:type="cDeltaString"></QuickDriveEndName>
+	<QuickDrivePlayerConsistName d:type="cDeltaString"></QuickDrivePlayerConsistName>
+</cScenarioProperties>
