@@ -126,7 +126,7 @@
 					<Polish d:type="cDeltaString"></Polish>
 					<Russian d:type="cDeltaString"></Russian>
 					<Other/>
-					<Key d:type="cDeltaString">066e4498-ae6d-4f62-9ad7-375efb441434</Key>
+					<Key d:type="cDeltaString">8380052c-1b2e-4893-90d9-872650bee493</Key>
 				</Localisation-cUserLocalisedString>
 			</LocoName>
 			<LocoBP>
@@ -188,7 +188,7 @@
 					<Polish d:type="cDeltaString"></Polish>
 					<Russian d:type="cDeltaString"></Russian>
 					<Other/>
-					<Key d:type="cDeltaString">54e8bf36-8a17-4bdf-881b-18e067ee4111</Key>
+					<Key d:type="cDeltaString">27dc4a16-4e24-46c7-8a5e-acccd7f43601</Key>
 				</Localisation-cUserLocalisedString>
 			</LocoName>
 			<LocoBP>
@@ -679,6 +679,18 @@ S
 			</Guid>
 			<Name d:type="cDeltaString">MerchandiseMart_BrnPur_S</Name>
 		</cScenarioProperties-cGuidToNameMapping>
+		<cScenarioProperties-cGuidToNameMapping d:id="1853085352">
+			<Guid>
+				<cGUID>
+					<UUID>
+						<e d:type="sUInt64">4929667374187253680</e>
+						<e d:type="sUInt64">6508046715722582148</e>
+					</UUID>
+					<DevString d:type="cDeltaString">bb438fb0-b25b-4469-84c8-4ac0013a515a</DevString>
+				</cGUID>
+			</Guid>
+			<Name d:type="cDeltaString">NorthClybourn_Red_NW</Name>
+		</cScenarioProperties-cGuidToNameMapping>
 		<cScenarioProperties-cGuidToNameMapping d:id="1849219112">
 			<Guid>
 				<cGUID>
@@ -689,7 +701,7 @@ S
 					<DevString d:type="cDeltaString">4b91d1c7-cfc7-4af8-a6bb-6a18d521feb7</DevString>
 				</cGUID>
 			</Guid>
-			<Name d:type="cDeltaString">NorthClybourn_Red_S</Name>
+			<Name d:type="cDeltaString">NorthClybourn_Red_SE</Name>
 		</cScenarioProperties-cGuidToNameMapping>
 		<cScenarioProperties-cGuidToNameMapping d:id="1849243432">
 			<Guid>
